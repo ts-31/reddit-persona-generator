@@ -15,7 +15,7 @@ mode = st.radio("📝 Persona Style", ["Concise", "Detailed"], horizontal=True)
 if st.button("✨ Generate Persona") and reddit_url.strip():
     with st.spinner("🧠 Generating persona... Please wait."):
         try:
-            api_url = "https://reddit-persona-generator-cj6y.onrender.com"  
+            api_url = "https://reddit-persona-generator-cj6y.onrender.com/generate-persona" 
 
             response = requests.post(
                 api_url,

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.env
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Virtual Environment
+venv/
+env/
+
+# Mac/Linux
+.DS_Store
+
+# Output files
+output/*.txt
+
+# Cache
+*.cache
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Git
+*.swp

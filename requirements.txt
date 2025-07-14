@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+praw
+google-generativeai
+python-dotenv
+streamlit
+requests
